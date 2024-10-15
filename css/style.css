@@ -38,6 +38,7 @@ header {
     justify-content: space-between;
     padding: 30px 170px;
     background: var(--bg-color);
+    transition: 1s;
 }
 
 .logo {
@@ -321,6 +322,11 @@ section {
     transform: scale(1.2);
     color: var(--bg-color);
     background: var(--text-color);
+}
+
+/* Navbar change on scroll */
+.scrolled {
+    background-color: rgb(60, 33, 80);
 }
 
 @media (max-width: 1560px) {
